@@ -12,6 +12,10 @@ import image11 from "../assets/gellary/img11.jpg"
 import image12 from "../assets/gellary/img12.jpg"
 import image13 from "../assets/gellary/img13.jpg"
 import image14 from "../assets/gellary/img14.jpg"
+import { BiCode } from "react-icons/bi"
+import { SiWebcomponentsdotorg } from "react-icons/si"
+import { RiSeoFill } from "react-icons/ri"
+import { VscDebugBreakpointConditional } from "react-icons/vsc"
 
 
 
@@ -35,3 +39,27 @@ const ImageGaDa = [
 
 
 export default ImageGaDa
+
+
+
+
+export const ClientField = [
+    {
+        name: "Web design",
+        icons: <BiCode/>
+    },
+    {
+        name: "Web development",
+        icons: <SiWebcomponentsdotorg/>
+    },
+    {
+        name: "SEO",
+        icons: <RiSeoFill/>
+    },
+    {
+        name: "Degital marketing",
+        icons: <VscDebugBreakpointConditional/>
+    },
+
+]
+
