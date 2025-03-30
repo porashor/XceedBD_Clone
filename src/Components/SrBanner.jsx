@@ -1,8 +1,8 @@
 import React from 'react'
 import BannerSec from "../assets/bannerSr.jpg"
-const SrBanner = () => {
+const SrBanner = ({bg, d1, d2, d3, f1, f2}) => {
   const bgStyles = {
-    backgroundImage: `url(${BannerSec})`,
+    backgroundImage: `url(${bg})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -14,16 +14,16 @@ const SrBanner = () => {
       <div className='absolute top-0 left-0 w-full h-full bg-[#0558cb56] backdrop-blur-[2px] z-10'></div>
       {/* container section   */}
       <div className='w-[90%] relative z-20 mx-auto flex items-center justify-between gap-5'>
-        <div className='w-2/3 flex flex-col items-start justify-center gap-5'>
-          <div className='text-2xl lg:text-3xl text-yellow-600'>Grow Your Business With Scalable Digital Marketing</div>
-          <div className='text-4xl lg:text-6xl'>Outsmart the competition with best-in-class digital marketing services</div>
-          <div className='text-lg md:text-xl'>Get more traffic. Acquire more customers. Sell more stuff. XCEEDBD offers proven strategies & reliable execution to exceed your marketing goals.</div>
+        <div className='w-2/3 flex flex-col items-start justify-center gap-5 space-y-7'>
+          <div className='text-2xl lg:text-3xl text-yellow-600'>{d1}</div>
+          <div className='text-4xl lg:text-6xl'>{d2}</div>
+          <div className='text-lg md:text-xl'>{d3}</div>
         </div>
         <div className='w-1/3 flex flex-col items-center justify-center gap-5'>
           {/* main form here  */}
-          <div className='bg-black  h-[100vh] flex flex-col items-start justify-center text-xl gap-5'>
-            <div className='text-3xl lg:text-6xl text-center '>Improve Results</div>
-            <div className='text-xl text-center mx-auto'>with a better website today</div>
+          <div className='bg-black  py-[50px] flex flex-col items-start justify-center text-xl gap-5'>
+            <div className='text-3xl lg:text-6xl text-center '>{f1}</div>
+            <div className='text-xl text-center mx-auto'>{f2}</div>
             {/* progress area  */}
             <div className='flex items-center justify-between gap-5 w-full px-2'>
               <div className=' w-[80px] aspect-square border-2 flex items-center justify-center rounded-full bg-white text-yellow-600 border-slate-400'>1</div>

@@ -10,6 +10,12 @@ import BandAware from "../assets/bandAwareness.jpg"
 import Trust from '../Components/Trust';
 import TrestDP from '../Components/TrestDP';
 import Getstart from '../Components/Getstart';
+import bannerbg from "../assets/bannerSr.jpg"
+
+
+
+
+
 
 const Service = () => {
   const cssR = {
@@ -22,7 +28,7 @@ const Service = () => {
   }
   return (
     <div>
-      <SrBanner/>
+      <SrBanner bg={bannerbg} d1={'Grow Your Business With Scalable Digital Marketing'} d2={'Outsmart the competition with best-in-class digital marketing services'} d3={'Get more traffic. Acquire more customers. Sell more stuff. XCEEDBD offers proven strategies & reliable execution to exceed your marketing goals.'} f1={'Improve Results'} f2={'with a better website today'}/>
       <Rward overview={""} css={cssR} Image={reImage} name1={"Bangladesh's #1 Rated Digital Marketing Agency"} name2={"With XCEEDBD, you get the best services, processes, and people to grow your business."}/>
       <DMS/>
       <Rward overview={"Results-Driven Website Design"} css={cssC} Image={customerImage} name1={"Get a beautiful website that wins customers."} name2={"Elevate your business with a trusted website that your customers will love. Our award-winning website designers will represent your brand in the best possible way. Your website will load extremely fast and look great on all devices."}/>
