@@ -1,5 +1,6 @@
 import React from 'react'
 import { BiLocationPlus, BiMessage, BiPhone } from 'react-icons/bi'
+import ShareLoc from './ShareLoc'
 
 const Touch = () => {
   return (
@@ -43,7 +44,9 @@ const Touch = () => {
         {/* call section  */}
       </div>
       {/* map sections  */}
-      <div></div>
+      <div>
+        <ShareLoc/>
+      </div>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactUs from '../Components/ContactUs'
 import Touch from '../Components/Touch'
+import FollowXc from '../Components/FollowXc'
 
 
 
@@ -10,6 +11,7 @@ const Contact = () => {
     <div>
       <ContactUs/>
       <Touch/>
+      <FollowXc/>
     </div>
   )
 }
