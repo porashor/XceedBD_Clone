@@ -9,19 +9,19 @@ const SrBanner = ({bg, d1, d2, d3, f1, f2}) => {
     zIndex: -1
   }
   return (
-    <div style={bgStyles} className='relative text-white min-h-[120vh] flex items-center justify-center py-20'>
+    <div style={bgStyles} className='relative text-white min-h-[100vh] flex items-center justify-center py-10'>
       {/* overlay area  */}
-      <div className='absolute top-0 left-0 w-full h-full bg-[#0558cb56] backdrop-blur-[2px] z-10'></div>
+      <div className='absolute top-0 left-0 w-full h-full bg-[#1d39625a] backdrop-blur-[2px] z-10'></div>
       {/* container section   */}
       <div className='w-[90%] relative z-20 mx-auto flex items-center justify-between gap-5'>
-        <div className='w-2/3 flex flex-col items-start justify-center gap-5 space-y-7'>
+        <div className='w-3/5 flex flex-col items-start justify-center gap-5 space-y-7'>
           <div className='text-2xl lg:text-3xl text-yellow-600'>{d1}</div>
           <div className='text-4xl lg:text-6xl'>{d2}</div>
           <div className='text-lg md:text-xl'>{d3}</div>
         </div>
-        <div className='w-1/3 flex flex-col items-center justify-center gap-5'>
+        <div className='w-2/5 flex flex-col items-center justify-center gap-5'>
           {/* main form here  */}
-          <div className='bg-black  py-[50px] flex flex-col items-start justify-center text-xl gap-5'>
+          <div className='bg-black px-5  py-[50px] flex flex-col items-start justify-center text-xl gap-5'>
             <div className='text-3xl lg:text-6xl text-center '>{f1}</div>
             <div className='text-xl text-center mx-auto'>{f2}</div>
             {/* progress area  */}
