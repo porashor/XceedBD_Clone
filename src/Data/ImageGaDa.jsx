@@ -63,3 +63,18 @@ export const ClientField = [
 
 ]
 
+
+import Image1 from "../assets/addvertise/a1.jpg";
+import Image2 from "../assets/addvertise/a2.jpg";
+import Image3 from "../assets/addvertise/a3.jpg";
+import Image4 from "../assets/addvertise/a4.jpg";
+import Image5 from "../assets/addvertise/a5.jpg";
+
+export const AddLogo = [
+    Image1,
+    Image2,
+    Image3,
+    Image4,
+    Image5
+]
+

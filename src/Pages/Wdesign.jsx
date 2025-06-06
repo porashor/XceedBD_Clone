@@ -7,6 +7,7 @@ import w2 from "../assets/wdesign/w2.jpg"
 import w3 from "../assets/wdesign/w3.jpg"
 import Presence from '../Components/Presence'
 import Featured from '../Components/Featured'
+import RightTec from '../Components/RightTec'
 
 
 
@@ -20,6 +21,7 @@ const Wdesign = () => {
       <ServiceDetails Image={w3} name1={"We learn about your business so we can figure out what your audience likes."} name2={"Your website is the first thing people see; we want it to make a good impression. We can design it to look nice and be easy to use. We’ll use your logo and colors so people will know it’s from your business. Your website will show that you know much about your industry and that people can trust you."} css={{order: true}}/>
       <Presence/>
       <Featured/>
+      <RightTec/>
     </div>
   )
 }
